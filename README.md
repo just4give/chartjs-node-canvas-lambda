@@ -2,6 +2,8 @@
 
 AWS lambda image to generate different charts using node-canvas and chart.js
 
+Read the article on [Medium](https://mithundotdas.medium.com/deploy-chartjs-node-canvas-to-aws-lambda-using-docker-container-b903d0018e26)
+
 Do you need to create line chart or bar chart from your lambda? This lambda docker image is at your service.
 
 There are many use-cases where you need to generate graphs in your email content or slack message. This is different from rendeing graphs on the browser. Using this image you can create your lambda function which will generate the graph and return you the base64 encoded string.
